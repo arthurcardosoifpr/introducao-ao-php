@@ -8,11 +8,11 @@ for ($i = 0; $i < 10; $i++){
 
 	if ($chute == 42){
         	print('Você venceu' . PHP_EOL);
-		break;
+			break;
 	} else if ($chute < 42 && $i < 9){
         	print('tente novamente, o número é maior e restam ' . 9 - $i . ' tentativas' . PHP_EOL);
 	} else if ($chute > 42 && $i < 9){
-                print('tente novamente, o número é menor e restam ' . 9 - $i . ' tentativas' . PHP_EOL);
+            print('tente novamente, o número é menor e restam ' . 9 - $i . ' tentativas' . PHP_EOL);
 	}
 
 }
